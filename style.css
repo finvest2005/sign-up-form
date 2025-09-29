@@ -42,10 +42,19 @@ a {
 
 .logo {
   margin-top: 30vh;
-  color: #ccc;
-  padding: 20px;
-  font-size: 76px;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 46px;
   font-family: NorseBold, Courier, monospace;
   font-weight: bold;
-  letter-spacing: 15px;
+  /* letter-spacing: 15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.logo > img {
+  height: 76px;
 }
