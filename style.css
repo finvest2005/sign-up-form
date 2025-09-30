@@ -84,3 +84,13 @@ label {
   letter-spacing: 1px;
   font-weight: bold;
 }
+
+.header {
+  height: 35vh;
+}
+.main {
+  height: 30vh;
+}
+.footer {
+  height: 35vh;
+}
