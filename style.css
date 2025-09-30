@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: antiquewhite; */
 }
 
 @font-face {
@@ -13,6 +12,8 @@
 body {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10vh;
+  height: 80vh;
 }
 
 a {
@@ -25,7 +26,7 @@ a {
 .credit {
   background-image: url('./halie-west-25xggax4bSA-unsplash.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -109,7 +110,7 @@ fieldset > div {
 }
 
 label {
-  font-size: 6px;
+  font-size: 7px;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -135,17 +136,15 @@ h5,
 
 h6 {
   padding: 15px 0px;
+  margin-top: 10px;
 }
 
 .btn {
-  font-size: 9px;
-  padding: 7px 20px;
-  width: 120px;
+  font-size: 10px;
+  padding: 10px 20px;
+  width: 150px;
   background-color: #596d48;
   color: white;
   border: none;
   border-radius: 5px;
-}
-
-fieldset {
 }
