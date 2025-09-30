@@ -58,3 +58,23 @@ a {
 .logo > img {
   height: 76px;
 }
+
+.container,
+.header,
+.main,
+.footer,
+.inputfields,
+.first,
+.last,
+.phone,
+.email,
+.password,
+.confirm {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+}
