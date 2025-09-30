@@ -9,6 +9,10 @@
   src: url('./Norse-Bold.otf') format('opentype');
 }
 
+form {
+  width: 100%;
+}
+
 body {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
