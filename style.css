@@ -78,3 +78,9 @@ fieldset {
   display: flex;
   flex-direction: row;
 }
+
+label {
+  font-size: 6px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
